@@ -51,4 +51,4 @@ run: build
 
 # Cleanup
 clean:
-	rm -f $(OUTPUT) $(LEX_C) $(YACC_C) $(YACC_H) $(YACC_O) $(LEX_O) y.output error.txt logs.txt
+	rm -f $(OUTPUT) $(LEX_C) $(YACC_C) $(YACC_H) $(YACC_O) $(LEX_O) y.output error.txt logs.txt compiler.tab.c
